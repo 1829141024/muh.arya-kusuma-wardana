@@ -1,9 +1,13 @@
-class lingkaran(object):
+class kelilinglingkaran(object):
    def __init__(self, p, r):
       self.phi = p
       self.jarijari = r
    def hitungkeliling(self):
       return 2* self.phi * self.jarijari 
+class luaslingkaran(object):
+   def __init__(self, p, r):
+      self.phi = p
+      self.jarijari = r
    def rumusluas(self):
       return self.phi * self.jarijari * self.jarijari
 def main():
